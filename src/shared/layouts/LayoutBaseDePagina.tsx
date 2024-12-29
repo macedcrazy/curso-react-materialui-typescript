@@ -8,6 +8,7 @@ interface LayoutBaseDePaginaProps {
   children: React.ReactNode;
   titulo: string;
   barraDeFerramentas: ReactNode;
+  
 }
 
 

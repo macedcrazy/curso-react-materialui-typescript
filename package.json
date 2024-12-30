@@ -6,9 +6,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "mock": "npm run json-server",
-    "eject": "react-scripts eject",
-    "json-server": "json-server -w ./mock/database.json -p 3333"
+    "mock": "json-server -w ./mock/database.json -p 3333",
+    "eject": "react-scripts eject"
+    
   },
   "dependencies": {
     "@emotion/react": "^11.13.5",
